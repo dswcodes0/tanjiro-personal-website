@@ -38,6 +38,7 @@ body {
     background-color: orange;
   }
 
+
   .missions {
     display: flex;
   }
@@ -52,7 +53,6 @@ body {
     max-width: 100%; /* Set the maximum width of the images to 100% */
     height: auto; /* Maintain the aspect ratio of the images */
   }
-
   .about-me {
     text-align: center;
   }
