@@ -1,0 +1,58 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+  } */
+
+body {
+    background-color: aqua;
+}
+
+.header-image img{
+    max-width: 200px; /* Adjust the value as needed */
+    height: auto;
+  }
+
+  .header {
+    display: flex;
+  }
+
+  header {
+    padding: 20px;
+  }
+
+  .header-image{
+    flex: 1;
+    text-align: right;
+  }
+
+  .main-header{
+    flex: 1;
+    text-align-last: left;
+  }
+
+  .wiki-button{
+    padding: 10px;
+    border-radius:60%;
+    color: red ;
+    background-color: orange;
+  }
+
+  .missions {
+    display: flex;
+  }
+
+  .missions > div {
+    flex: 1 1 30%;
+    margin: 10px;
+    border: 1px solid black
+  }
+
+  .missions > div img {
+    max-width: 100%; /* Set the maximum width of the images to 100% */
+    height: auto; /* Maintain the aspect ratio of the images */
+  }
+
+  .about-me {
+    text-align: center;
+  }
